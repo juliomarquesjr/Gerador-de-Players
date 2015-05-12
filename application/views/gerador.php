@@ -121,9 +121,9 @@
                                     <option value="">Selecione o Servidor</option>
                                     <optgroup label="Centova Cast">
                                         <option value="centova.ciclanohost.com.br">Centova</option>
-                                        <option value="centova2.ciclanohost.com.br">Centova 2</option>
-                                        <option value="centova3.ciclanohost.com.br">Centova 3</option>
-                                        <option value="centova4.ciclanohost.com.br">Centova 4</option>
+                                        <option value="184.107.58.100">Centova 2</option>
+                                        <option value="67.205.76.171">Centova 3</option>
+                                        <option value="174.142.198.110">Centova 4</option>
                                     </optgroup>
                                     <optgroup label="WHMSonic">
                                         <option value="radios6.ciclanohost.com.br">Radios 6</option>
@@ -339,7 +339,7 @@
         porta = document.getElementById('porta').value;
         img = document.getElementById('img_url').value;
 
-        codigo.innerHTML = "<code>http://player.radio.br/v2/players/facebook/player.php$ip=" + servidor + "&porta=" + porta + "&logo=" + img +"</code>";
+        codigo.innerHTML = "<code>http://player.radio.br/v2/players/facebook/player.php?ip=" + servidor + "&porta=" + porta + "&logo=" + img +"</code>";
     }
 </script>
 </body>
