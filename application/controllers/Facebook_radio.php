@@ -8,8 +8,7 @@ Class Facebook_radio extends CI_Controller
     {
         $dados = array('titulo' => 'Streaming Rádio - Player para Facebook', 't_pagina' => 'Facebook');
         $this->load->view('includes/header');
-        $this->load->view('gerador_facebook', $dados);
+        $this->load->view('facebook_radio', $dados);
         $this->load->view('includes/footer');
     }
-
 }
