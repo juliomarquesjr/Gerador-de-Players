@@ -74,7 +74,7 @@
                         <li><a href="#">JWPlayer 5</a></li>
                     </ul>
                 </li>
-                <li><a href="http://player.radio.br/gerador/" target="_blank"><i class="fa fa-lightbulb-o"></i> <span>Gerador de Players V1</span></a>
+                <li><a href="http://player.radio.br/gerador/" target="_blank"><i class="fa fa-lightbulb-o"></i> <span>Gerador de Players - V1</span></a>
                 </li>
             </ul>
 
@@ -134,7 +134,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="porta">Porta</label>
-                                <input type="number" class="form-control" id="porta" placeholder="Porta">
+                                <input type="number" class="form-control" id="porta" placeholder="Porta" required="required">
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="img_url">Password</label>
