@@ -17,6 +17,8 @@
     <link href="<?php echo base_url('assets/css/select2.css'); ?>" rel="stylesheet"/>
     <link href="<?php echo base_url('assets/css/colorpicker.css'); ?>" rel="stylesheet"/>
     <link href="<?php echo base_url('assets/css/dropzone.css'); ?>" rel="stylesheet"/>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/codemirror/codemirror.css'); ?>"/>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/codemirror/theme/ambiance.css'); ?>">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,7 +30,7 @@
 <body>
 
 <header>
-    <div class="headerwrapper">
+    <div class="headerwrapper collapsed">
         <div class="header-left">
             <a href="index.html" class="logo">
                 <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt=""/>
@@ -51,7 +53,7 @@
 </header>
 
 <section>
-    <div class="mainwrapper">
+    <div class="mainwrapper collapsed">
         <div class="leftpanel">
 
             <!-- media -->
@@ -68,11 +70,12 @@
 
                 <li class="parent"><a href="#"><i class="fa fa-video-camera"></i> <span>Web TV</span></a>
                     <ul class="children">
-                        <li><a href="code-editor.html">JWPlayer 6</a></li>
-                        <li><a href="general-forms.html">JWPlayer 5</a></li>
+                        <li><a href="#">JWPlayer 6</a></li>
+                        <li><a href="#">JWPlayer 5</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><i class="fa fa-lightbulb-o"></i> <span>Gerador de Players V1</span></a></li>
+                <li><a href="http://player.radio.br/gerador/" target="_blank"><i class="fa fa-lightbulb-o"></i> <span>Gerador de Players V1</span></a>
+                </li>
             </ul>
 
         </div>
@@ -109,7 +112,6 @@
                         <!-- panel-btns -->
                         <h4 class="panel-title">Informações da Rádio</h4>
 
-                        <p>Basic form with a class name of <code>.form-inline</code>.</p>
                     </div>
                     <div class="panel-body">
                         <form class="form-inline">
@@ -118,42 +120,53 @@
                                 <select id="select-basic" data-placeholder="Choose One" class="width300">
                                     <option value="">Selecione o Servidor</option>
                                     <optgroup label="Centova Cast">
-                                        <option value="CA">Centova</option>
-                                        <option value="NV">Centova 2</option>
-                                        <option value="OR">Centova 3</option>
-                                        <option value="WA">Centova 4</option>
+                                        <option value="centova.ciclanohost.com.br">Centova</option>
+                                        <option value="centova2.ciclanohost.com.br">Centova 2</option>
+                                        <option value="centova3.ciclanohost.com.br">Centova 3</option>
+                                        <option value="centova4.ciclanohost.com.br">Centova 4</option>
                                     </optgroup>
                                     <optgroup label="WHMSonic">
-                                        <option value="AZ">Radios 6</option>
-                                        <option value="CO">Radios 8</option>
-                                        <option value="ID">Rádios 9</option>
+                                        <option value="radios6.ciclanohost.com.br">Radios 6</option>
+                                        <option value="radios8.ciclanohost.com.br">Radios 8</option>
+                                        <option value="radios9.ciclanohost.com.br">Rádios 9</option>
                                     </optgroup>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="exampleInputPassword2">Password</label>
-                                <input type="text" class="form-control" id="exampleInputPassword2" placeholder="Porta">
+                                <label class="sr-only" for="porta">Porta</label>
+                                <input type="number" class="form-control" id="porta" placeholder="Porta">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="img_url">Password</label>
+                                <input type="url" class="form-control" id="img_url" placeholder="URL Imagem">
                             </div>
                             <!-- form-group -->
 
-                            <button type="submit" class="btn btn-primary mr5">Gerar Player</button>
+                            <button type="button" class="btn btn-primary mr5" onclick="javascript:gerar_codigo();">Gerar Player</button>
 
                         </form>
                     </div>
-                    <!-- panel-body -->
+
                 </div>
                 <!-- panel -->
+                <div class="row" style="display: none" id="gerador">
+                <div class="panel panel-default" >
+                    <div class="panel-heading">
+                        <h5 class="panel-title">Código do Player</h5>
 
-            </div>
+                        <p>Copie o código abaixo e cole em sua linha do tempo ou página. Após alguns instantes o
+                            Facebook irá montar o player.</p>
+                    </div>
+                    <div class="panel-body" id="codigo"><code>http://player.radio.br/v2/players/facebook/</code></div>
+
+                </div>
+
+            </div></div>
             <!-- pageheader -->
-
             <div class="contentpanel">
-
                 <!-- CONTENT GOES HERE -->
-
             </div>
             <!-- contentpanel -->
-
         </div>
     </div>
     <!-- mainwrapper -->
@@ -179,6 +192,11 @@
 <script src="<?php echo base_url('assets/js/select2.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/colorpicker.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/dropzone.min.js'); ?>"></script>
+
+<script src="<?php echo base_url('assets/js/codemirror/codemirror.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/codemirror/formatting.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/codemirror/mode/xml.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/codemirror/mode/javascript.js'); ?>"></script>
 <script>
     jQuery(document).ready(function () {
 
@@ -263,6 +281,66 @@
 
     });
 </script>
+<script>
 
+    CodeMirror.fromTextArea(document.getElementById("code"), {
+        mode: {name: "xml", alignCDATA: true},
+        lineNumbers: true
+    });
+
+    CodeMirror.fromTextArea(document.getElementById("code2"), {
+        mode: {name: "javascript"},
+        lineNumbers: true,
+        theme: 'ambiance'
+    });
+
+    var editor = CodeMirror.fromTextArea(document.getElementById("code3"), {
+        mode: {name: "javascript"},
+        lineNumbers: true,
+    });
+    CodeMirror.commands["selectAll"](editor);
+
+    function getSelectedRange() {
+        return {from: editor.getCursor(true), to: editor.getCursor(false)};
+    }
+
+    function autoFormatSelection() {
+        var range = getSelectedRange();
+        editor.autoFormatRange(range.from, range.to);
+    }
+
+    function commentSelection(isComment) {
+        var range = getSelectedRange();
+        editor.commentRange(isComment, range.from, range.to);
+    }
+
+    jQuery(document).ready(function () {
+
+        jQuery('.autoformat').click(function () {
+            autoFormatSelection();
+        });
+
+        jQuery('.comment').click(function () {
+            commentSelection(true);
+        });
+
+        jQuery('.uncomment').click(function () {
+            commentSelection(false);
+        });
+
+    });
+
+</script>
+<script>
+    function gerar_codigo(){
+        document.getElementById('gerador').style.display = 'inline';
+        codigo = document.getElementById('codigo');
+        servidor = document.getElementById('select-basic').value;
+        porta = document.getElementById('porta').value;
+        img = document.getElementById('img_url').value;
+
+        codigo.innerHTML = "<code>http://player.radio.br/v2/players/facebook/player.php$ip=" + servidor + "&porta=" + porta + "&logo=" + img +"</code>";
+    }
+</script>
 </body>
 </html>
