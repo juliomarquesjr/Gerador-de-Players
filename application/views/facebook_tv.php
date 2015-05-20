@@ -67,7 +67,7 @@
                                 <input type="number" class="form-control" id="porta" placeholder="Porta" required="required">
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="img_url">Password</label>
+                                <label class="sr-only" for="img_url">URL Imagem</label>
                                 <input type="url" class="form-control" id="img_url" placeholder="URL Imagem">
                             </div>
                             <!-- form-group -->

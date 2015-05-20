@@ -66,8 +66,8 @@
                                 <input type="number" class="form-control" id="porta" placeholder="Porta" required="required">
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="img_url">Password</label>
-                                <input type="url" class="form-control" id="img_url" placeholder="URL Imagem">
+                                <label class="sr-only" for="usuario">Usuário Centova</label>
+                                <input type="url" class="form-control" id="usuario" placeholder="Usuário do Painel">
                             </div>
                             <!-- form-group -->
 
@@ -106,8 +106,12 @@
         codigo = document.getElementById('codigo');
         servidor = document.getElementById('select-basic').value;
         porta = document.getElementById('porta').value;
-        img = document.getElementById('img_url').value;
+        usuario = document.getElementById('usuario').value;
+        url = location.href;
+        url = url.split('/');
+        diretorio = url[3]
+        url = url[2];
 
-        codigo.innerHTML = "<code>http://player.radio.br/v2/players/facebook/player.php?ip=" + servidor + "&porta=" + porta + "&logo=" + img +"</code>";
+        codigo.innerHTML = "<code>http://"+ url + "/" + diretorio +"/players/radio/topo/barra1/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario +"</code>";
     }
 </script>

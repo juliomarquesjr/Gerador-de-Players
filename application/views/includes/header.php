@@ -56,21 +56,21 @@
         <div class="leftpanel">
             <h5 class="leftpanel-title">Selecione uma opção</h5>
             <ul class="nav nav-pills nav-stacked">
-                <li class="parent"><a href="#"><i class="fa fa-facebook"></i> <span>Facebook Player</span></a>
+                <li class="parent"><a href=""><i class="fa fa-facebook"></i> <span>Facebook Player</span></a>
                     <ul class="children">
                         <li><a href="<?php echo base_url('gerador/facebook_radio'); ?>">Streaming Web Rádio</a></li>
                         <li><a href="<?php echo base_url('gerador/facebook_tv'); ?>">Streaming para Web TV</a></li>
                     </ul>
                 </li>
-                <li class="parent"><a href="#"><i class="fa fa-music"></i> <span>Web Rádio</span></a>
+                <li class="parent"><a href=""><i class="fa fa-music"></i> <span>Web Rádio</span></a>
                     <ul class="children">
-                        <li><a href="#">Topo site (Barra)</a></li>
+                        <li><a href="<?php echo base_url('gerador/player_barra'); ?>">Topo site (Barra)</a></li>
                         <li><a href="#">HTML 5</a></li>
                         <li><a href="#">Box (Caixa)</a></li>
                     </ul>
                 </li>
 
-                <li class="parent"><a href="#"><i class="fa fa-video-camera"></i> <span>Web TV</span></a>
+                <li class="parent"><a href=""><i class="fa fa-video-camera"></i> <span>Web TV</span></a>
                     <ul class="children">
                         <li><a href="#">JWPlayer 6</a></li>
                         <li><a href="#">JWPlayer 5</a></li>

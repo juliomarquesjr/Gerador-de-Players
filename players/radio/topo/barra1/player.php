@@ -60,7 +60,7 @@
 
         <embed src="http://cdn.srvstm.com/player-topo.swf" width="90" height="35" wmode="transparent"
                allowscriptaccess="always" allowfullscreen="true"
-               flashvars="servidor=http://<?php echo $_GET['ip'] ?>:<?php echo $_GET['ip'] ?>/&rtmp=rtmp://flash1.ciclanohost.com.br/ciclano&autostart=true"
+               flashvars="servidor=http://<?php echo @$_GET['ip'] ?>:<?php echo @$_GET['porta'] ?>/&rtmp=rtmp://flash1.ciclanohost.com.br/ciclano&autostart=true"
                type="application/x-shockwave-flash" style="padding-top:5px;"/>
         </embed>&nbsp;&nbsp;&nbsp;<img src="img/img-player-vu-meter.gif" width="100" height="30"
                                        align="top"/>
@@ -70,16 +70,46 @@
             id="musica_atual"></span></div>
 
 
-    <div id="player-links"><a href="http://streamcast.webservic.com.br/player/14238/winamp.pls" target="_blank"><img
+    <div id="player-links"><a href="http://<?php echo @$_GET['ip']; ?>:2199/tunein/<?php echo @$_GET['user']; ?>.pls""><img
             src="img/icones/img-icone-player-winamp.png" width="16" height="16" border="0"
-            align="absmiddle"/></a>&nbsp;<a href="http://streamcast.webservic.com.br/player/14238/mediaplayer.asx"><img
+            align="absmiddle"/></a>&nbsp;<a href="http://<?php echo @$_GET['ip']; ?>:2199/tunein/<?php echo @$_GET['user']; ?>.asx"><img
             src="img/icones/img-icone-player-mediaplayer.png" width="16" height="16" border="0"
-            align="absmiddle"/></a>&nbsp;<a href="http://streamcast.webservic.com.br/player/14238/realplayer.rm"><img
+            align="absmiddle"/></a>&nbsp;<a href="http://<?php echo @$_GET['ip']; ?>:2199/tunein/<?php echo @$_GET['user']; ?>.ram"><img
             src="img/icones/img-icone-player-realplayer.png" width="16" height="16" border="0"
             align="absmiddle"/></a></div>
 
 
 </div>
+
+<div id="aqui" style="border:5px dotted; padding:20px">
+    Aqui entra o que vou pegar de outra página via ajax
+    <p />
+    <a href="#" onclick="xmlhttp.send(null); this.style.display='none';">Clique aqui para pegar o conteudo da página inicial deste site</a>
+</div>
+<p />
+<script type="text/javascript">
+    // <!--
+
+    try{
+        var xmlhttp = new XMLHttpRequest();
+    } catch (error) {
+        try {
+            var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        } catch (error) {
+            var xmlhttp = false;
+        }
+    }
+
+    xmlhttp.open("GET", "http://174.142.97.107:8102/7",true);
+    xmlhttp.onreadystatechange=function() {
+        if (xmlhttp.readyState==4) {
+            document.getElementById("aqui").innerHTML = xmlhttp.responseText;
+        }
+    }
+
+    // -->
+</script>
+
 <script type="text/javascript">
     function get_host() {
 
@@ -89,10 +119,12 @@
         return url[2];
 
     }
+    //pagCarregada = window.open("http://174.142.97.107:8102/7");
 
-    document.getElementById('musica_atual').innerHTML = "teste";
+    //document.getElementById('musica_atual').innerHTML = pagCarregada;
 
 </script>
+
 </body>
 
 </html>
