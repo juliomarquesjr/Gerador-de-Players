@@ -125,5 +125,6 @@
         diretorio = url[3];
         url = url[2];
 
+        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&#62;&#60;/iframe&#62;";
 
 </script>
