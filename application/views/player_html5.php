@@ -37,8 +37,7 @@
                                 <label class="sr-only" for="exampleInputPassword2">Player</label>
                                 <select id="select-search-hide" data-placeholder="Choose One" class="width300">
                                     <option value="">Selecione o Player</option>
-                                    <option value="barra1">Barra 1 - Preto</option>
-                                    <option value="barra1">Barra 2 - Branco</option>
+                                    <option value="padrao">Padrão HTML5</option>
                                 </select>
                                 </div>
 
@@ -113,7 +112,7 @@
     <!-- mainwrapper -->
 </section>
 <script>
-    function gerar_codigo(){
+    function gerar_codigo() {
         document.getElementById('gerador').style.display = 'inline';
         codigo = document.getElementById('codigo');
         servidor = document.getElementById('select-basic').value;
@@ -123,12 +122,8 @@
 
         url = location.href;
         url = url.split('/');
-        diretorio = url[3]
+        diretorio = url[3];
         url = url[2];
-        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&#62;&#60;/iframe&#62;";
 
-        codigo.innerHTML = "<code>"+ link +"</code>";
-
-    }
 
 </script>

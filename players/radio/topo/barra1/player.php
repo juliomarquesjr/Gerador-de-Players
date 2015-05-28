@@ -81,35 +81,6 @@
 
 </div>
 
-<div id="aqui" style="border:5px dotted; padding:20px">
-    Aqui entra o que vou pegar de outra página via ajax
-    <p />
-    <a href="#" onclick="xmlhttp.send(null); this.style.display='none';">Clique aqui para pegar o conteudo da página inicial deste site</a>
-</div>
-<p />
-<script type="text/javascript">
-    // <!--
-
-    try{
-        var xmlhttp = new XMLHttpRequest();
-    } catch (error) {
-        try {
-            var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        } catch (error) {
-            var xmlhttp = false;
-        }
-    }
-
-    xmlhttp.open("GET", "http://174.142.97.107:8102/7",true);
-    xmlhttp.onreadystatechange=function() {
-        if (xmlhttp.readyState==4) {
-            document.getElementById("aqui").innerHTML = xmlhttp.responseText;
-        }
-    }
-
-    // -->
-</script>
-
 <script type="text/javascript">
     function get_host() {
 
