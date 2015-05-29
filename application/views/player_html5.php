@@ -125,6 +125,16 @@
         diretorio = url[3];
         url = url[2];
 
-        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&#62;&#60;/iframe&#62;";
+        if(player == "padrao"){
+            link = "&#60;audio controls autoplay&#62;<br/>&#60;soucer src=\"http://" + servidor + ":" + porta + "/;\" type=\"audio/mpeg\"&#62;" + "<br/>Seu navegador não possui suporte<br />&#60;/audio&#62;";
+        } else {
+            link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&#62;&#60;/iframe&#62;";
+
+        }
+
+    codigo.innerHTML = "<code>"+ link +"</code>";
+    }
+
+
 
 </script>

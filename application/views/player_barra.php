@@ -16,6 +16,7 @@
                 <!-- media -->
 
             </div>
+            <div class="row">
             <div class="contentpanel col-md-6">
 
                 <div class="panel panel-default">
@@ -35,10 +36,10 @@
 
                                 <div class="form-group">
                                 <label class="sr-only" for="exampleInputPassword2">Player</label>
-                                <select id="select-search-hide" data-placeholder="Choose One" class="width300">
+                                <select id="select-search-hide" data-placeholder="Choose One" class="width300" onclick="javascript:atualiza_img();">
                                     <option value="">Selecione o Player</option>
                                     <option value="barra1">Barra 1 - Preto</option>
-                                    <option value="barra1">Barra 2 - Branco</option>
+                                    <option value="barra2">Barra 2 - Branco</option>
                                 </select>
                                 </div>
 
@@ -109,11 +110,60 @@
             </div>
             <!-- contentpanel -->
         </div>
+
+            <div class="contentpanel col-md-6" id="prev">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-btns" style="display: none;">
+                            <a href="#" class="panel-minimize tooltips" data-toggle="tooltip" title=""
+                               data-original-title="Minimize Panel"><i class="fa fa-minus"></i></a>
+                            <a href="#" class="panel-close tooltips" data-toggle="tooltip" title=""
+                               data-original-title="Close Panel"><i class="fa fa-times"></i></a>
+                        </div>
+                        <!-- panel-btns -->
+                        <h4 class="panel-title">Prévia do Player</h4>
+
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-horizontal form-bordered">
+                            <img  id="img_previa" src="" height="50" width="450" border="0" hidden="true"/ >
+                        </form>
+                    </div>
+                </div>
+                <!-- panel -->
+
+                <div class="row" style="display: none" id="gerador">
+                    <div class="panel panel-default" >
+                        <div class="panel-heading">
+                            <h5 class="panel-title">Código do Player</h5>
+
+                            <p>Copie o código abaixo para seu site</p>
+                        </div>
+                        <div class="panel-body" id="codigo">
+
+                        </div>
+
+                    </div></div>
+                <!-- pageheader -->
+                <div class="contentpanel">
+                    <!-- CONTENT GOES HERE -->
+                </div>
+                <!-- contentpanel -->
+            </div>
+             </div>
     </div>
     <!-- mainwrapper -->
 </section>
 <script>
+
+
     function gerar_codigo(){
+        url = location.href;
+        url = url.split('/');
+        diretorio = url[3]
+        url = url[2];
+
         document.getElementById('gerador').style.display = 'inline';
         codigo = document.getElementById('codigo');
         servidor = document.getElementById('select-basic').value;
@@ -121,14 +171,20 @@
         usuario = document.getElementById('usuario').value;
         player = document.getElementById('select-search-hide').value;
 
-        url = location.href;
-        url = url.split('/');
-        diretorio = url[3]
-        url = url[2];
         link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&#62;&#60;/iframe&#62;";
 
         codigo.innerHTML = "<code>"+ link +"</code>";
 
+    }
+
+    function atualiza_img(){
+        url = location.href;
+        url = url.split('/');
+        diretorio = url[3]
+        url = url[2];
+
+        document.getElementById('img_previa').src = "http://" + url + "/" + diretorio + "/assets/images/players/" + document.getElementById('select-search-hide').value + ".png";
+        document.getElementById('img_previa').hidden = false;
     }
 
 </script>
