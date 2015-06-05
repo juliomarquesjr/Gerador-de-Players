@@ -111,7 +111,7 @@
             <!-- contentpanel -->
         </div>
 
-            <div class="contentpanel col-md-6" id="prev">
+            <div class="contentpanel col-md-4" id="prev">
 
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -127,7 +127,7 @@
                     </div>
                     <div class="panel-body">
                         <form class="form-horizontal form-bordered">
-                            <img  id="img_previa" src="" height="50" width="450" border="0" hidden="true"/ >
+                            <img  id="img_previa" src="" height="35" width="350" border="0" hidden="true"/ >
                         </form>
                     </div>
                 </div>

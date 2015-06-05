@@ -72,7 +72,7 @@
                             </div>
                             <!-- form-group -->
 
-                            <button type="button" class="btn btn-primary mr5" onclick="javascript:gerar_codigo();">Gerar Player</button>
+                            <button type="button" class="btn btn-default mr5" onclick="javascript:gerar_codigo();">Gerar Player</button>
 
                         </form>
                     </div>

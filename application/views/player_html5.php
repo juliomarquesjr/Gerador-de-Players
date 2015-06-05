@@ -84,7 +84,7 @@
 
                         </form>
                     </div>
-                    <div class="panel-footer"><button type="button" class="btn btn-primary mr5" onclick="javascript:gerar_codigo();">Gerar Player</button></div>
+                    <div class="panel-footer"><button type="button" class="btn btn-default mr5" onclick="javascript:gerar_codigo();">Gerar Player</button></div>
 
 
                 </div>

@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/Gerador-de-Players/';
+$config['base_url'] = 'http://player.radio.br/v2';
 
 /*
 |--------------------------------------------------------------------------
