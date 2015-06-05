@@ -1,0 +1,58 @@
+body{
+    margin: 0 auto;
+    font-size: 10px;
+    font-family: Tahoma;
+    background-color: #777;
+    background-image: url('fundo_player.png');
+    background-repeat: repeat-x;
+    color: #ffffff;
+    text-align: center;
+}
+
+a img{
+    border: none;
+}
+
+#content{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#player{
+    text-align: left;
+    width: 100%;
+}
+
+table{
+    font-size: 10px;
+    color:#000000;
+}
+
+table .cent{
+    text-align: center;
+}
+
+table .cent a{
+    text-decoration: none;
+    color:#000000;
+}
+
+table .cent a:hover{
+    text-decoration: underline;
+}
+
+.agora{
+    padding: 10px;
+    color: #ededed;
+    font-size: 10px;
+}
+
+.pedido{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sombra{
+    background-image: url('fnd_qualidade.png');
+}

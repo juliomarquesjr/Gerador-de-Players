@@ -67,7 +67,7 @@
                     <ul class="children">
                         <li><a href="<?php echo base_url('gerador/player_barra'); ?>">Topo site (Barra)</a></li>
                         <li><a href="<?php echo base_url('gerador/player_html5'); ?>">HTML 5</a></li>
-                        <li><a href="#">Box (Caixa)</a></li>
+                        <li><a href="<?php echo base_url('gerador/player_box'); ?>">Box (Caixa)</a></li>
                     </ul>
                 </li>
 

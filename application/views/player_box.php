@@ -38,8 +38,8 @@
                                 <label class="sr-only" for="exampleInputPassword2">Player</label>
                                 <select id="select-search-hide" data-placeholder="Choose One" class="width300" onclick="javascript:atualiza_img();">
                                     <option value="">Selecione o Player</option>
-                                    <option value="barra1">Barra 1 - Preto</option>
-                                    <option value="barra2">Barra 2 - Branco</option>
+                                    <option value="whmsonic">WHMSonic</option>
+                                    <option value="jwplayer">JW Player 5</option>
                                 </select>
                                 </div>
 
@@ -175,7 +175,8 @@
         player = document.getElementById('select-search-hide').value;
         nome_radio = document.getElementById('n_radio').value;
 
-        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + "&#62;&#60;/iframe&#62;";
+        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/box/" + player + "/index.php?radio=" + servidor + ":=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + " scrolling=\"no\" " +
+        " frameborder=\"0\" &#62;&#60;/iframe&#62;";
 
         codigo.innerHTML = "<code>"+ link +"</code>";
 

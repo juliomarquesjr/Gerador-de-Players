@@ -31,6 +31,15 @@ Class Gerador extends CI_Controller
     }
 
     public
+    function player_box()
+    {
+        $dados = array('titulo' => 'Streaming Rádio - Player Box (Caixa)', 't_pagina' => 'Web Rádio');
+        $this->load->view('includes/header');
+        $this->load->view('player_box', $dados);
+        $this->load->view('includes/footer');
+    }
+
+    public
     function player_html5()
     {
         $dados = array('titulo' => 'Streaming Rádio - Player HTML5', 't_pagina' => 'Web Rádio');
