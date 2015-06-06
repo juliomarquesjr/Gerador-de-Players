@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6432ae1-31f5-418d-8b34-1e79b2680f43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/AACplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/base_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/playersemrtmp.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/shoutcast.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/CHANGELOG.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/README-EN.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/README-PT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/en.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/error_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/es.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/iframe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/integrate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/manager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/no.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/player.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/popup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/proxy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/pt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/ro.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/players/radio/box/whmsonic/index_OLD.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/players/radio/box/whmsonic/player.html" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/player_box.php" afterPath="$PROJECT_DIR$/application/views/player_box.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/facebook_tv.php" afterPath="$PROJECT_DIR$/application/views/facebook_tv.php" />
     </list>
     <ignored path="v2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +26,33 @@
     <favorites_list name="v2" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="player_barra.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3000">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="160" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook_tv.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/facebook_tv.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42060086" vertical-offset="958" max-vertical-offset="1890">
+              <caret line="90" column="66" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,16 +76,16 @@
         <option value="$PROJECT_DIR$/application/views/theme/css/style.default.css" />
         <option value="$PROJECT_DIR$/assets/css/style.default.css" />
         <option value="$PROJECT_DIR$/application/views/player_html5.php" />
-        <option value="$PROJECT_DIR$/application/views/facebook_tv.php" />
         <option value="$PROJECT_DIR$/application/views/facebook_radio.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/players/radio/topo/barra1/player.php" />
         <option value="$PROJECT_DIR$/application/views/includes/header.php" />
-        <option value="$PROJECT_DIR$/application/views/player_barra.php" />
         <option value="$PROJECT_DIR$/application/controllers/Gerador.php" />
         <option value="$PROJECT_DIR$/players/radio/box/shoutcast/index.php" />
         <option value="$PROJECT_DIR$/application/views/player_box.php" />
         <option value="$PROJECT_DIR$/players/radio/box/shoutcast/config.php" />
+        <option value="$PROJECT_DIR$/application/views/player_barra.php" />
+        <option value="$PROJECT_DIR$/application/views/facebook_tv.php" />
       </list>
     </option>
   </component>
@@ -154,58 +154,6 @@
               <option name="myItemId" value="players" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gerador-de-Players" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="players" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gerador-de-Players" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="players" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="radio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoutcast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -218,24 +166,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gerador-de-Players" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,7 +270,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1919" height="1053" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,7 +280,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18342887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18342887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -636,14 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/facebook_tv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51502144" vertical-offset="630" max-vertical-offset="1800">
-          <caret line="74" column="72" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/facebook_radio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57939917" vertical-offset="570" max-vertical-offset="1800">
@@ -705,14 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32296136" vertical-offset="1694" max-vertical-offset="3000">
-          <caret line="133" column="56" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/players/radio/box/shoutcast/manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51502144" vertical-offset="0" max-vertical-offset="15405">
@@ -750,6 +664,27 @@
         <state vertical-scroll-proportion="0.6459227" vertical-offset="2203" max-vertical-offset="3150">
           <caret line="187" column="26" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3000">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="160" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/facebook_tv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42060086" vertical-offset="958" max-vertical-offset="1890">
+          <caret line="90" column="66" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
