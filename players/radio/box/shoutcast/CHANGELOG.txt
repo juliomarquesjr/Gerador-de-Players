@@ -1,0 +1,25 @@
+2011-12-07: v1.1
+	- The color embed parameter new format supports identifiers, in any order: primaryColor=<color>,secondaryColor=<color>,backgroundColor=<color>,controlBackgroundColor=<color>,tickerBackgroundColor=<color>,tickerShadowColor=<color>
+	- The color embed parameter now supports color definitions in any format (0xAABBCC, #AABBCC or AABBCC)
+	- Embed config format changed to JSON, and now accepts all parameters available on config.php
+	- Player size optimization (reduced file size in ~45%)
+	- On socket connections, track is detected through the stream's metadata, requiring no polling system (less bandwidth/resources taken on the server)
+	- If a server is down or connection is lost (and no retry seconds are set), skips to the next station (if in a group)
+	- Popup url is now obfuscated
+	- Language, initial volume level and color scheme can now be defined on the player embedding code
+	- Basic color scheme support (currently allows to change the primary and secondary colors of the player)
+	- History, Stations and Contact sections can be turned off
+	- Popup, contact, facebook and twitter buttons can now be hidden
+	- The default skin now supports the full latin charset (accents, special characters, etc)
+	- Language pack support, starting with English and Portuguese
+	- Groups of stations (use two or more station ids separated by commas on the player's station parameter)
+	- Auto reconnect feature, triggered when stream is lost
+	- Buffering support when using proxy
+	- Integration with an external script
+	- Stations can now override any configuration parameter
+	- Several proxy enhancements to make it more stable
+	- Several bug fixes and minor enhancements
+
+
+2011-07-29: v1.0
+	- Initial release

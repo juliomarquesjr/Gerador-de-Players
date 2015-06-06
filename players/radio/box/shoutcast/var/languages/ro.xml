@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes" ?>
+<language code="ro">
+	<stationNameDefault>Postul de radio online</stationNameDefault>
+	<soundMuted>Sunetul este oprit</soundMuted>
+	<soundVolume>Volum sunet</soundVolume>
+	<accessDeniedMessage>Perioada de evaluare a acetui player a expirat sau nu este permisa folosirea lui pe acest domeniu</accessDeniedMessage>
+	<accessDeniedTitle>Acces Refuzat</accessDeniedTitle>
+	<changeStation>Schimbati Statia</changeStation>
+	<stationError>Aceasta statie este deconectata, va rugam incercati mai tarziu...</stationError>
+	<stationChangeTrackTitle>Acum In Direct</stationChangeTrackTitle>
+	<stationDisconnect>Deconectat... apasati Play pentru a se conecta</stationDisconnect>
+	<stationConnect>Conectat</stationConnect>
+	<connecting>Se conecteaza...</connecting>
+	<anotherPlayerOpened>Player-ul deschis intr-o alta ferestra</anotherPlayerOpened>
+	<popupBlocked>Nu poate deshide player-ul intr-o fereastra noua.. va rugam dezactivati orice optiune de blocare a popup-ului din browser</popupBlocked>
+	<listeningToTitle>Acum ascultati</listeningToTitle>
+	<genre>GENUL</genre>
+	<proxy>PROXY</proxy>
+	<stream>STREAM</stream>
+	<listeners>ASCULTATORI</listeners>
+	<buyNow>CUMPARA ACUM DE PE</buyNow>
+	<forOnly>PENTRU DOAR</forOnly>
+	<requiredFields>Toate campurile sunt obligatorii! Va rugam verificati daca campurile sunt complectate corect</requiredFields>
+	<mailSent>Comentariul a fost trimis cu succes! Va multumim</mailSent>
+	<mailError>A aparut o eroare la trimiterea acestui email, va rugam sa incercati mai tarziu...</mailError>
+	<mailName>NUMELE</mailName>
+	<mailEmail>ADRESA DE EMAIL</mailEmail>
+	<mailComment>COMENTARIUL</mailComment>
+	<historyActiveTrack>IN DIRECT</historyActiveTrack>
+	<unmuteTip>Porneste sunetul</unmuteTip>
+	<muteTip>Opreste sunetul</muteTip>
+	<volumeTip>Ajustati volumul sunetului</volumeTip>
+	<playTip>Conecteaza la statia curenta si incepe redarea</playTip>
+	<stopTip>Opreste redarea si deconecteaza de la statia curenta</stopTip>
+	<twitterTip>Trimite pe Twitter</twitterTip>
+	<facebookTip>Trimite pe Facebook</facebookTip>
+	<contactTip>Contactati-ne pe e-mail</contactTip>
+	<popupTip>Deschide player-ul cu caracteristicile complete intr-o fereastra noua</popupTip>
+	<playButton>PLAY</playButton>
+	<stopButton>STOP</stopButton>
+	<mailSendButton>TRIMITE</mailSendButton>
+	<mailClearButton>STERGE</mailClearButton>
+	<contactSectionTitle>CONTACT</contactSectionTitle>
+	<historySectionTitle>RULATE RECENT</historySectionTitle>
+	<stationsSectionTitle>POSTURI DE RADIO</stationsSectionTitle>
+	<stationReconnect>Conexiune pierduta... se reconecteaza in </stationReconnect>
+	<connectedTime>Conectat de</connectedTime>
+</language>

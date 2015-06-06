@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes" ?>
+<language code="no">
+	<stationNameDefault>radio stasjon</stationNameDefault>
+	<soundMuted>Lyden er skrudd av</soundMuted>
+	<soundVolume>Volum</soundVolume>
+	<accessDeniedMessage>Spilleren har ikke lov til å spille på dette domenet</accessDeniedMessage>
+	<accessDeniedTitle>Adgang forbudt</accessDeniedTitle>
+	<changeStation>Skiftet stasjon</changeStation>
+	<stationError>Vi er nede for øyeblikket, vennligst prøv igjen senere...</stationError>
+	<stationChangeTrackTitle>Sang</stationChangeTrackTitle>
+	<stationDisconnect>Stoppet.. klikk spill av knappen for å starte.</stationDisconnect>
+	<stationConnect>Tilkoblet</stationConnect>
+	<connecting>Kobler til...</connecting>
+	<anotherPlayerOpened>Spilleren åpnet nytt vindu</anotherPlayerOpened>
+	<popupBlocked>Kunne ikke åpne lyttesenter. Vennligst skru av pop-up blokkering i din nettleser.</popupBlocked>
+	<listeningToTitle>Du lytter til</listeningToTitle>
+	<genre>SJANGER</genre>
+	<proxy>PROXY</proxy>
+	<stream>STREAM</stream>
+	<listeners>LYTTERE</listeners>
+	<buyNow>KJØP NÅ FRA</buyNow>
+	<forOnly>FOR KUN</forOnly>
+	<requiredFields>Alle felter må fylles ut! Vennligst sjekk om du har fylt ut alle korrekt</requiredFields>
+	<mailSent>Takk for at du sendte en melding inn til oss!</mailSent>
+	<mailError>En feil oppsto når du prøvde å sende meldingen, vennligst prøv på nytt</mailError>
+	<mailName>NAVN</mailName>
+	<mailEmail>EMAIL</mailEmail>
+	<mailComment>MELDING</mailComment>
+	<historyActiveTrack>SPILLER</historyActiveTrack>
+	<unmuteTip>Skru på lyd</unmuteTip>
+	<muteTip>Skru av lyd</muteTip>
+	<volumeTip>Juster volumet</volumeTip>
+	<playTip>Start avspilling av nåværende stasjon</playTip>
+	<stopTip>Stop avspilling av nåværende stasjon</stopTip>
+	<twitterTip>Del på Twitter</twitterTip>
+	<facebookTip>Del på Facebook</facebookTip>
+	<contactTip>Kontakt oss</contactTip>
+	<popupTip>Åpne stor spiller i nytt vindu</popupTip>
+	<playButton>PLAY</playButton>
+	<stopButton>STOPP</stopButton>
+	<mailSendButton>SEND</mailSendButton>
+	<mailClearButton>TØM SKJEMA</mailClearButton>
+	<contactSectionTitle>KONTAKT</contactSectionTitle>
+	<historySectionTitle>SIST SPILTE</historySectionTitle>
+	<stationsSectionTitle>RADIO STASJONER</stationsSectionTitle>
+	<stationReconnect>Kommunikasjon ble avbrutt, gjennopptar kontakten om </stationReconnect>
+	<connectedTime>Kontakted tid</connectedTime>
+</language>

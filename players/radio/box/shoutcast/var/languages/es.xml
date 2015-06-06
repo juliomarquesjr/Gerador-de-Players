@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes" ?>
+<language code="es">
+	<stationNameDefault>estación de radio</stationNameDefault>
+	<soundMuted>Sonido silenciado</soundMuted>
+	<soundVolume>Sonido</soundVolume>
+	<accessDeniedMessage>El período de prueba ha expirado, o no es permitido acceso al reproductor en este dominio</accessDeniedMessage>
+	<accessDeniedTitle>Acceso denegado</accessDeniedTitle>
+	<changeStation>Estación cambió</changeStation>
+	<stationError>La estación no está disponible, por favor inténtelo más tarde...</stationError>
+	<stationChangeTrackTitle>Ahora tocando</stationChangeTrackTitle>
+	<stationDisconnect>Desconectado... presióne Tocar para conectar</stationDisconnect>
+	<stationConnect>Conectado</stationConnect>
+	<connecting>Conectando...</connecting>
+	<anotherPlayerOpened>Reproductor abierto en otra ventana</anotherPlayerOpened>
+	<popupBlocked>No se puede abrir la ventana del reproductor grande.. por favor desactive cualquier bloqueador de ventanas en su navegador</popupBlocked>
+	<listeningToTitle>Está escuchando</listeningToTitle>
+	<genre>TIPO</genre>
+	<proxy>PROXY</proxy>
+	<stream>STREAM</stream>
+	<listeners>OYENTES</listeners>
+	<buyNow>CÓMPRELO EN</buyNow>
+	<forOnly>POR SÓLO</forOnly>
+	<requiredFields>Todos los campos son obligatorios! Por favor asegúrese de que todos los campos están correctos</requiredFields>
+	<mailSent>Mensaje enviada! Gracias por sus comentarios</mailSent>
+	<mailError>Un error ha ocorrido al enviar el mensaje, inténtelo de nuevo mas tarde...</mailError>
+	<mailName>NOMBRE</mailName>
+	<mailEmail>EMAIL</mailEmail>
+	<mailComment>COMENTARIO</mailComment>
+	<historyActiveTrack>TOCANDO</historyActiveTrack>
+	<unmuteTip>Restaurar el sonido</unmuteTip>
+	<muteTip>Silenciar</muteTip>
+	<volumeTip>Volumen del sonido</volumeTip>
+	<playTip>Conectar a la estación actual y comenzar la reproducción</playTip>
+	<stopTip>Detener la reproducción y desconectar de la estación</stopTip>
+	<twitterTip>Compartir en Twitter</twitterTip>
+	<facebookTip>Compartir en Facebook</facebookTip>
+	<contactTip>Contacto con nosotros por email</contactTip>
+	<popupTip>Abrir reproductor grande en una ventana separada</popupTip>
+	<playButton>TOCAR</playButton>
+	<stopButton>DETENER</stopButton>
+	<mailSendButton>ENVIAR</mailSendButton>
+	<mailClearButton>REAJUSTAR</mailClearButton>
+	<contactSectionTitle>CONTACTO</contactSectionTitle>
+	<historySectionTitle>RECIÉN ESCUCHADAS</historySectionTitle>
+	<stationsSectionTitle>ESTACIÓNS DE RADIO</stationsSectionTitle>
+	<stationReconnect>Conexión perdida.. volver a conectar en </stationReconnect>
+	<connectedTime>Tiempo de conexión</connectedTime>
+</language>

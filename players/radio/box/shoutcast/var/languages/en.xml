@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes" ?>
+<language code="en">
+	<stationNameDefault>online radio station</stationNameDefault>
+	<soundMuted>Sound is muted</soundMuted>
+	<soundVolume>Sound volume</soundVolume>
+	<accessDeniedMessage>The player trial has expired or is otherwise not allowed to run on this domain</accessDeniedMessage>
+	<accessDeniedTitle>Access Denied</accessDeniedTitle>
+	<changeStation>Changed station</changeStation>
+	<stationError>The station is down, please try again later...</stationError>
+	<stationChangeTrackTitle>Now Playing</stationChangeTrackTitle>
+	<stationDisconnect>Disconnected... press play to connect</stationDisconnect>
+	<stationConnect>Connected</stationConnect>
+	<connecting>Connecting...</connecting>
+	<anotherPlayerOpened>Player opened in another window</anotherPlayerOpened>
+	<popupBlocked>Unable to open the large player window.. please disable any pop-up blockers on your browser</popupBlocked>
+	<listeningToTitle>You're listening to</listeningToTitle>
+	<genre>GENRE</genre>
+	<proxy>PROXY</proxy>
+	<stream>STREAM</stream>
+	<listeners>LISTENERS</listeners>
+	<buyNow>BUY NOW FROM</buyNow>
+	<forOnly>FOR ONLY</forOnly>
+	<requiredFields>All fields are required! Please make sure every field in the form is correctly entered</requiredFields>
+	<mailSent>Comment sent successfully! Thank you for your feedback</mailSent>
+	<mailError>An error occurred while sending the email, please try again later...</mailError>
+	<mailName>NAME</mailName>
+	<mailEmail>EMAIL</mailEmail>
+	<mailComment>COMMENT</mailComment>
+	<historyActiveTrack>PLAYING</historyActiveTrack>
+	<unmuteTip>Turn on sound</unmuteTip>
+	<muteTip>Mute sound</muteTip>
+	<volumeTip>Set sound volume</volumeTip>
+	<playTip>Connect to the current station and start playback</playTip>
+	<stopTip>Stop playback and disconnect from the current station</stopTip>
+	<twitterTip>Share on Twitter</twitterTip>
+	<facebookTip>Share on Facebook</facebookTip>
+	<contactTip>Contact us by email</contactTip>
+	<popupTip>Open full featured player on a separate window</popupTip>
+	<playButton>PLAY</playButton>
+	<stopButton>STOP</stopButton>
+	<mailSendButton>SEND</mailSendButton>
+	<mailClearButton>CLEAR</mailClearButton>
+	<contactSectionTitle>CONTACT</contactSectionTitle>
+	<historySectionTitle>RECENTLY PLAYED</historySectionTitle>
+	<stationsSectionTitle>RADIO STATIONS</stationsSectionTitle>
+	<stationReconnect>Connection lost... reconnecting in </stationReconnect>
+	<connectedTime>Connected Time</connectedTime>
+</language>

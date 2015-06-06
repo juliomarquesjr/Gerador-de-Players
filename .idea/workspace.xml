@@ -2,82 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6432ae1-31f5-418d-8b34-1e79b2680f43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/5.3.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/5.3.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/WHMSonic.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/aacp.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/aacp_.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/aacp_STREAM209.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/aacp_novo.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/aacp_server88.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/ciclanohost-topo1.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ciclanohost.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/ciclanohost_OLD.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/elegante.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/elegante1.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/fundo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz/holder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/jwplayer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/line.1.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/line.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/live.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/live.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/metal.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/moderno.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz/play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/player2.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/player2.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/shoutcast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/shoutcast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/shoutcast.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/shoutcast.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/simples.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz/statusplay.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz/statusstop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz/stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/top3.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/whmsonic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/winamp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/AC_RunActiveContent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/ffmp3-radiovoz.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/ie_player.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/01/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/index_OLD.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/index_OLD_NOMEMUSICA.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/index_OR.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/index_limpo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/index_ouvintes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/jwplayer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/jwplayer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/musica.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/musica_OLD.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/old/novo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/ouvintes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/ouvintes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/player.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/player.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/player.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/player.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/player_box.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/stats.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/stats.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/swfobject2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/jwplayer/socket01/swfobject2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Gerador.php" afterPath="$PROJECT_DIR$/application/controllers/Gerador.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/includes/header.php" afterPath="$PROJECT_DIR$/application/views/includes/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/players/radio/topo/barra1/player.php" afterPath="$PROJECT_DIR$/players/radio/topo/barra1/player.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/player_barra.php" afterPath="$PROJECT_DIR$/application/views/player_barra.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/AACplayer.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/base_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/playersemrtmp.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/shoutcast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/CHANGELOG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/README-EN.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/README-PT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/crossdomain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/en.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/error_log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/es.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/iframe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/integrate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/no.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/player.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/popup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/proxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/pt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/players/radio/box/shoutcast/var/languages/ro.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/players/radio/box/whmsonic/index_OLD.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/players/radio/box/whmsonic/player.html" afterPath="$PROJECT_DIR$/players/radio/box/whmsonic/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/player_box.php" afterPath="$PROJECT_DIR$/application/views/player_box.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="v2.iws" />
@@ -102,48 +52,7 @@
     <favorites_list name="v2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="player_barra.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.901961" vertical-offset="1694" max-vertical-offset="3000">
-              <caret line="133" column="56" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player_box.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/player_box.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-50.0" vertical-offset="0" max-vertical-offset="3015">
-              <caret line="170" column="51" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gerador.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Gerador.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5633047" vertical-offset="0" max-vertical-offset="932">
-              <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.708334" vertical-offset="418" max-vertical-offset="1350">
-              <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -173,8 +82,10 @@
         <option value="$PROJECT_DIR$/players/radio/topo/barra1/player.php" />
         <option value="$PROJECT_DIR$/application/views/includes/header.php" />
         <option value="$PROJECT_DIR$/application/views/player_barra.php" />
-        <option value="$PROJECT_DIR$/application/views/player_box.php" />
         <option value="$PROJECT_DIR$/application/controllers/Gerador.php" />
+        <option value="$PROJECT_DIR$/players/radio/box/shoutcast/index.php" />
+        <option value="$PROJECT_DIR$/application/views/player_box.php" />
+        <option value="$PROJECT_DIR$/players/radio/box/shoutcast/config.php" />
       </list>
     </option>
   </component>
@@ -269,10 +180,6 @@
               <option name="myItemId" value="box" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whmsonic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -293,6 +200,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shoutcast" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,6 +253,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gerador-de-Players" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -357,10 +286,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/players" />
+      <recent name="$PROJECT_DIR$/players/radio/box/whmsonic" />
+      <recent name="$PROJECT_DIR$/players/radio/box/shoutcast" />
       <recent name="$PROJECT_DIR$/players/radio/box" />
       <recent name="$PROJECT_DIR$/application/views" />
-      <recent name="$PROJECT_DIR$/players/radio/box/whmsonic" />
-      <recent name="C:\xampp\htdocs\Gerador-de-Players\application\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/players" />
@@ -382,6 +311,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="0b771af9-f132-42a8-9d16-f6eb9a4ac53a" server_name="GeradorPlayer">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -389,9 +321,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -411,28 +340,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1919" height="1053" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18342887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18342887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -451,9 +380,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1966581" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -477,6 +406,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1694" max-vertical-offset="3000">
+          <caret line="133" column="56" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/player_box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="3015">
+          <caret line="170" column="51" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Gerador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1350">
+          <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2925">
@@ -695,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8690987" vertical-offset="0" max-vertical-offset="932">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40450644" vertical-offset="103" max-vertical-offset="7590">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,32 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06437768" vertical-offset="0" max-vertical-offset="1500">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <marker date="1433509141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433509141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433509141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433509141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433509141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433509141000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/players/radio/box/whmsonic/ie_player.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22532189" vertical-offset="0" max-vertical-offset="932">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/players/radio/box/whmsonic/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72639483" vertical-offset="163" max-vertical-offset="1095">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <marker date="1415273290000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,22 +678,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.112660944" vertical-offset="0" max-vertical-offset="932">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Gerador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.901961" vertical-offset="1694" max-vertical-offset="3000">
-          <caret line="133" column="56" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/player_box.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-50.0" vertical-offset="0" max-vertical-offset="3015">
-          <caret line="170" column="51" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
+        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="840">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -772,10 +697,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Gerador.php">
+    <entry file="file://$PROJECT_DIR$/players/radio/box/whmsonic/ie_player.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5633047" vertical-offset="0" max-vertical-offset="932">
-          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.22532189" vertical-offset="0" max-vertical-offset="932">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/player_barra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32296136" vertical-offset="1694" max-vertical-offset="3000">
+          <caret line="133" column="56" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/players/radio/box/shoutcast/manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51502144" vertical-offset="0" max-vertical-offset="15405">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/players/radio/box/shoutcast/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1785">
+          <caret line="42" column="93" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/players/radio/box/shoutcast/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="2175">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/players/radio/box/shoutcast/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39779004" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/player_box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6459227" vertical-offset="2203" max-vertical-offset="3150">
+          <caret line="187" column="26" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
           <folding />
         </state>
       </provider>

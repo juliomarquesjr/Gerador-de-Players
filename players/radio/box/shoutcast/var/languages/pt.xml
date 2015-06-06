@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes" ?>
+<language code="pt">
+	<stationNameDefault>Sua estação de rádio está online</stationNameDefault>
+	<soundMuted>O som está desligado</soundMuted>
+	<soundVolume>Volume de som</soundVolume>
+	<accessDeniedMessage>Este software expirou ou não é permitida a sua utilização neste servidor</accessDeniedMessage>
+	<accessDeniedTitle>Accesso Negado</accessDeniedTitle>
+	<changeStation>Estação mudada</changeStation>
+	<stationError>A estação está em baixo, por favor tente novamente mais tarde...</stationError>
+	<stationChangeTrackTitle>Ouvindo Agora</stationChangeTrackTitle>
+	<stationDisconnect>Desligado... pressione o botão Iniciar para ligar</stationDisconnect>
+	<stationConnect>Ligado</stationConnect>
+	<connecting>Ligando...</connecting>
+	<anotherPlayerOpened>Player aberto noutra janela</anotherPlayerOpened>
+	<popupBlocked>Não foi possível abrir a versão extendida noutra janela.. por favor desactive o bloqueador de janelas no seu browser</popupBlocked>
+	<listeningToTitle>Ouvindo agora</listeningToTitle>
+	<genre>TIPO</genre>
+	<proxy>PROXY</proxy>
+	<stream>STREAM</stream>
+	<listeners>OUVINTES</listeners>
+	<buyNow>COMPRE NA</buyNow>
+	<forOnly>POR APENAS</forOnly>
+	<requiredFields>Todos os campos são obrigatórios! Por favor certifique-se que todos os campos do formulário estão correctamente preenchidos</requiredFields>
+	<mailSent>Comentário enviado com sucesso! Obrigado por nos contactar</mailSent>
+	<mailError>Ocorreu um erro ao enviar o email, por favor tente de novo mais tarde...</mailError>
+	<mailName>NOME</mailName>
+	<mailEmail>EMAIL</mailEmail>
+	<mailComment>COMENTÁRIO</mailComment>
+	<historyActiveTrack>A TOCAR</historyActiveTrack>
+	<unmuteTip>Ligar o som</unmuteTip>
+	<muteTip>Desligar o som</muteTip>
+	<volumeTip>Definir volume de som</volumeTip>
+	<playTip>Ligar à estação atual</playTip>
+	<stopTip>Párar e desligar a estação atual</stopTip>
+	<twitterTip>Compartilhar no Twitter</twitterTip>
+	<facebookTip>compartilhar no Facebook</facebookTip>
+	<contactTip>Contactar-nos por email</contactTip>
+	<popupTip>Abrir a versão extendida numa janela separada</popupTip>
+	<playButton>INICIAR</playButton>
+	<stopButton>PARAR</stopButton>
+	<mailSendButton>ENVIAR</mailSendButton>
+	<mailClearButton>APAGAR</mailClearButton>
+	<contactSectionTitle>CONTATO</contactSectionTitle>
+	<historySectionTitle>ÚLTIMAS MÚSICAS</historySectionTitle>
+	<stationsSectionTitle>ESTAÇÕES</stationsSectionTitle>
+	<stationReconnect>Ligação perdida.. tentando de novo dentro de </stationReconnect>
+	<connectedTime>Duração da ligação</connectedTime>
+</language>

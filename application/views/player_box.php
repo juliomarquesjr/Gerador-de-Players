@@ -40,6 +40,7 @@
                                     <option value="">Selecione o Player</option>
                                     <option value="whmsonic">WHMSonic</option>
                                     <option value="jwplayer">JW Player 5</option>
+                                    <option value="shoutcast">ShoutCast Player</option>
                                 </select>
                                 </div>
 
@@ -86,6 +87,12 @@
                             <div class="form-group col-sm-5">
                                 <label class="control-label" for="usuario">Usuário Centova</label>
                                 <input type="url" class="form-control" id="usuario">
+                            </div>
+                            <div class="form-group col-sm-5">
+                            <div class="ckbox ckbox-default">
+                                <input type="checkbox" value="1" id="checkboxDefault" />
+                                <label for="checkboxDefault">Inicial Automáticamente</label>
+                            </div>
                             </div>
 
                         </form>
@@ -174,9 +181,11 @@
         usuario = document.getElementById('usuario').value;
         player = document.getElementById('select-search-hide').value;
         nome_radio = document.getElementById('n_radio').value;
+        autostart = document.getElementById('checkboxDefault').checked;
 
-        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/box/" + player + "/index.php?radio=" + servidor + ":=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + " scrolling=\"no\" " +
-        " frameborder=\"0\" &#62;&#60;/iframe&#62;";
+        link = "&#60;iframe src=\"http://"+ url + "/" + diretorio +"/players/radio/box/" + player + "/index.php?radio=" + servidor + ":" + porta + "&user=" + usuario + "" +
+        "&n_radio=" + nome_radio + "&autoplay="+ autostart +"\" scrolling=\"no\" " +
+        " frameborder=\"0\"\" &#62;&#60;/iframe&#62;";
 
         codigo.innerHTML = "<code>"+ link +"</code>";
 
