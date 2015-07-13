@@ -78,14 +78,22 @@
                                 <input type="text" class="form-control" id="n_radio">
                             </div>
 
-                            <div class="form-group col-sm-5">
+                            <div class="form-group col-sm-4">
                                 <label class="control-label" for="porta">Porta</label>
                                 <input type="number" class="form-control" id="porta" required="required">
                             </div>
 
-                            <div class="form-group col-sm-5">
+                            <div class="form-group col-sm-4">
                                 <label class="control-label" for="usuario">Usuário Centova</label>
                                 <input type="url" class="form-control" id="usuario">
+                            </div>
+
+                            <div class="form-group col-sm-3">
+                                <label class="control-label" for="exampleInputPassword2">Cor do fundo</label><br/>
+                                <input type="text" name="colorpicker" class="form-control colorpicker-input" placeholder="#000000" id="colorpicker" value="#000000"/>
+                                        <span id="colorSelector" class="colorselector">
+                                            <span></span>
+                                        </span>
                             </div>
 
                         </form>
@@ -174,8 +182,9 @@
         usuario = document.getElementById('usuario').value;
         player = document.getElementById('select-search-hide').value;
         nome_radio = document.getElementById('n_radio').value;
+        cor = document.getElementById('colorpicker').value;
 
-        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + "&#62;&#60;/iframe&#62;";
+        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + "&cor=" + cor +"&#62;&#60;/iframe&#62;";
 
         codigo.innerHTML = "<code>"+ link +"</code>";
 
