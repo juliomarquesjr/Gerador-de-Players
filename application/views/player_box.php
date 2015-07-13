@@ -34,18 +34,21 @@
                     <div class="panel-body">
                         <form class="form-horizontal form-bordered">
 
-                                <div class="form-group">
-                                <label class="sr-only" for="exampleInputPassword2">Player</label>
+                                <div class="form-group col-sm-10">
+                                <label class="control-label" for="exampleInputPassword2">Players disponíveis</label><br>
                                 <select id="select-search-hide" data-placeholder="Choose One" class="width300" onclick="javascript:atualiza_img();">
                                     <option value="">Selecione o Player</option>
                                     <option value="whmsonic">WHMSonic</option>
+                                    <option value="fowplayer">FowPlayer</option>
                                     <option value="jwplayer">JW Player 5</option>
+                                    <option value="grant">Grant - Branco</option>
+                                    <option value="grant2">Grant - Preto</option>
                                     <option value="shoutcast">ShoutCast Player</option>
                                 </select>
                                 </div>
 
-                            <div class="form-group">
-                                <label class="sr-only" for="exampleInputPassword2">Selecione o Servidor</label>
+                            <div class="form-group col-sm-10">
+                                <label class="control-label" for="exampleInputPassword2">Servidores</label><br>
                                 <select id="select-basic" data-placeholder="Choose One" class="width300">
                                     <option value="">Selecione o Servidor</option>
                                     <optgroup label="Centova Cast">
@@ -74,7 +77,7 @@
                                 </select>
                                 </div>
 
-                            <div class="form-group col-sm-10">
+                            <div class="form-group col-sm-5">
                                 <label class="control-label" for="nome_radio">Nome da Rádio</label>
                                 <input type="text" class="form-control" id="n_radio">
                             </div>
@@ -84,10 +87,6 @@
                                 <input type="number" class="form-control" id="porta" required="required">
                             </div>
 
-                            <div class="form-group col-sm-5">
-                                <label class="control-label" for="usuario">Usuário Centova</label>
-                                <input type="url" class="form-control" id="usuario">
-                            </div>
                             <div class="form-group col-sm-5">
                             <div class="ckbox ckbox-default">
                                 <input type="checkbox" value="1" id="checkboxDefault" />
@@ -167,7 +166,6 @@
 </section>
 <script>
 
-
     function gerar_codigo(){
         url = location.href;
         url = url.split('/');
@@ -178,14 +176,13 @@
         codigo = document.getElementById('codigo');
         servidor = document.getElementById('select-basic').value;
         porta = document.getElementById('porta').value;
-        usuario = document.getElementById('usuario').value;
         player = document.getElementById('select-search-hide').value;
         nome_radio = document.getElementById('n_radio').value;
         autostart = document.getElementById('checkboxDefault').checked;
 
-        link = "&#60;iframe src=\"http://"+ url + "/" + diretorio +"/players/radio/box/" + player + "/index.php?radio=" + servidor + ":" + porta + "&user=" + usuario + "" +
+        link = "&#60;iframe src=\"http://"+ url + "/" + diretorio +"/players/radio/box/" + player + "/index.php?radio=" + servidor + ":" + porta + "" +
         "&n_radio=" + nome_radio + "&autoplay="+ autostart +"\" scrolling=\"no\" " +
-        " frameborder=\"0\"\" &#62;&#60;/iframe&#62;";
+        " frameborder=\"0\"&#62;&#60;/iframe&#62;";
 
         codigo.innerHTML = "<code>"+ link +"</code>";
 

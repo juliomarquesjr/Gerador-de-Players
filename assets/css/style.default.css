@@ -509,7 +509,7 @@ a:focus {
 .leftpanel .nav > li.active > a,
 .leftpanel .nav > li.active > a:hover {
     color: #fff;
-    background-color: #428bca;
+    background-color: #777777;
 }
 
 .leftpanel .nav > li > a i {

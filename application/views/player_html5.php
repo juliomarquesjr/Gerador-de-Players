@@ -35,9 +35,9 @@
 
                                 <div class="form-group">
                                 <label class="sr-only" for="exampleInputPassword2">Player</label>
-                                <select id="select-search-hide" data-placeholder="Choose One" class="width300">
+                                <select id="select-search-hide" data-placeholder="Choose One" class="width300" onclick="javascript:atualiza_img();">
                                     <option value="">Selecione o Player</option>
-                                    <option value="padrao">Padrão HTML5</option>
+                                    <option value="html5">Padrão HTML5</option>
                                 </select>
                                 </div>
 
@@ -108,6 +108,47 @@
             </div>
             <!-- contentpanel -->
         </div>
+
+            <div class="contentpanel col-md-4" id="prev">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-btns" style="display: none;">
+                            <a href="#" class="panel-minimize tooltips" data-toggle="tooltip" title=""
+                               data-original-title="Minimize Panel"><i class="fa fa-minus"></i></a>
+                            <a href="#" class="panel-close tooltips" data-toggle="tooltip" title=""
+                               data-original-title="Close Panel"><i class="fa fa-times"></i></a>
+                        </div>
+                        <!-- panel-btns -->
+                        <h4 class="panel-title">Prévia do Player</h4>
+
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-horizontal form-bordered">
+                            <img  id="img_previa" src="" border="0" hidden="true"/ >
+                        </form>
+                    </div>
+                </div>
+                <!-- panel -->
+
+                <div class="row" style="display: none" id="gerador">
+                    <div class="panel panel-default" >
+                        <div class="panel-heading">
+                            <h5 class="panel-title">Código do Player</h5>
+
+                            <p>Copie o código abaixo para seu site</p>
+                        </div>
+                        <div class="panel-body" id="codigo">
+
+                        </div>
+                    </div></div>
+                <!-- pageheader -->
+                <div class="contentpanel">
+                    <!-- CONTENT GOES HERE -->
+                </div>
+                <!-- contentpanel -->
+            </div>
+
     </div>
     <!-- mainwrapper -->
 </section>
@@ -135,6 +176,14 @@
     codigo.innerHTML = "<code>"+ link +"</code>";
     }
 
+    function atualiza_img(){
+        url = location.href;
+        url = url.split('/');
+        diretorio = url[3]
+        url = url[2];
 
+        document.getElementById('img_previa').src = "http://" + url + "/" + diretorio + "/assets/images/players/" + document.getElementById('select-search-hide').value + ".png";
+        document.getElementById('img_previa').hidden = false;
+    }
 
 </script>
