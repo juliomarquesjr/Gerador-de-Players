@@ -185,7 +185,7 @@
         cor = document.getElementById('colorpicker').value;
         cor = cor.replace(/#/g, '');
 
-        link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + "&cor=" + cor +"&#62;&#60;/iframe&#62;";
+        link = "&#60;iframe src=\"http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + "&cor=" + cor +"\"&#62;&#60;/iframe&#62;";
 
         codigo.innerHTML = "<code>"+ link +"</code>";
 

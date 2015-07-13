@@ -79,7 +79,7 @@
 
                             <div class="form-group col-sm-4">
                                 <label class="control-label" for="porta">Porta</label>
-                                <input type="number" class="form-control" id="porta" required="required">
+                                <input type="text" class="form-control" id="porta" required="required">
                             </div>
 
                             <div class="form-group col-sm-5">
@@ -177,7 +177,6 @@
         url = url[2];
 
         document.getElementById('gerador').style.display = 'inline';
-        document.getElementById('previa').style.display = 'inline';
 
         codigo = document.getElementById('codigo');
 

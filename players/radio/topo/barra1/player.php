@@ -7,7 +7,7 @@
     <script type="text/javascript" src="javascript.js"></script>
     <style>
         body {
-            background: #000000;
+            background: #<?php echo @$_GET['cor']; ?>;
             margin: 0px auto;
             overflow: hidden;
         }
