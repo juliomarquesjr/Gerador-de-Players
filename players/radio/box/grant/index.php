@@ -10,18 +10,19 @@
         body {
             margin:0;
             padding:0;
+            background-color: #<?php echo @$_GET['cor']; ?>;
         }
     </style>
-    <!-- must have -->
+
     <link href="audio4_html5.css" rel="stylesheet" type="text/css">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    <!-- and new libraries to use lastfm -->
+
     <script type="text/javascript" src="js/lastfm.api.md5.js"></script>
     <script type="text/javascript" src="js/lastfm.api.js"></script>
     <script type="text/javascript" src="js/lastfm.api.cache.js"></script>
-    <!-- and new libraries to use lastfm -->
+
     <script type="text/javascript" src="js/swfobject.js"></script>
     <script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
     <script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>

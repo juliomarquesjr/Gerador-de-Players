@@ -49,18 +49,18 @@
                                     <option value="">Selecione o Servidor</option>
                                     <optgroup label="Centova Cast">
                                         <option value="centova.ciclanohost.com.br">Centova</option>
-                                        <option value="184.107.58.100">Centova 2</option>
-                                        <option value="67.205.76.171">Centova 3</option>
-                                        <option value="174.142.198.110">Centova 4</option>
-                                        <option value="67.205.85.209">Centova 6</option>
-                                        <option value="72.55.180.91">Centova 8</option>
-                                        <option value="67.205.96.231">Centova 10</option>
-                                        <option value="72.55.171.237">Centova 11</option>
-                                        <option value="70.38.41.128">Centova 12</option>
-                                        <option value="70.38.9.243">Centova 13</option>
-                                        <option value="174.142.175.230">Centova 14</option>
-                                        <option value="54.207.74.143">Centova 15</option>
-                                        <option value="184.172.113.139">Centova 16</option>
+                                        <option value="centova2.ciclanohost.com.br">Centova 2</option>
+                                        <option value="centova3.ciclanohost.com.br">Centova 3</option>
+                                        <option value="centova4.ciclanohost.com.br">Centova 4</option>
+                                        <option value="centova6.ciclanohost.com.br">Centova 6</option>
+                                        <option value="centova8.ciclanohost.com.br">Centova 8</option>
+                                        <option value="centova10.ciclanohost.com.br">Centova 10</option>
+                                        <option value="centova11.ciclanohost.com.br">Centova 11</option>
+                                        <option value="centova12.ciclanohost.com.br">Centova 12</option>
+                                        <option value="centova13.ciclanohost.com.br">Centova 13</option>
+                                        <option value="centova14.ciclanohost.com.br">Centova 14</option>
+                                        <option value="centova15.ciclanohost.com.br">Centova 15</option>
+                                        <option value="centova16.ciclanohost.com.br">Centova 16</option>
                                         <option value="54.207.10.173">Centova BR 1</option>
                                     </optgroup>
                                     <optgroup label="WHMSonic">
@@ -134,7 +134,7 @@
                                data-original-title="Close Panel"><i class="fa fa-times"></i></a>
                         </div>
                         <!-- panel-btns -->
-                        <h4 class="panel-title">Prévia do Player</h4>
+                        <h4 class="panel-title">Imagem do Player</h4>
 
                     </div>
                     <div class="panel-body">
@@ -166,7 +166,7 @@
     </div>
     <!-- mainwrapper -->
 </section>
-<script>
+<script language="JavaScript">
 
 
     function gerar_codigo(){
@@ -183,6 +183,7 @@
         player = document.getElementById('select-search-hide').value;
         nome_radio = document.getElementById('n_radio').value;
         cor = document.getElementById('colorpicker').value;
+        cor = cor.replace(/#/g, '');
 
         link = "&#60;iframe src=http://"+ url + "/" + diretorio +"/players/radio/topo/" + player + "/player.php?ip=" + servidor + "&porta=" + porta + "&user=" + usuario + "&n_radio=" + nome_radio + "&cor=" + cor +"&#62;&#60;/iframe&#62;";
 

@@ -10,6 +10,7 @@
         body {
             margin:0;
             padding:0;
+            background-color: #<?php echo @$_GET['cor']; ?>;
         }
     </style>
     <!-- must have -->
