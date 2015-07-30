@@ -39,10 +39,11 @@
                                 <select id="select-search-hide" data-placeholder="Choose One" class="width300" onclick="javascript:atualiza_img();">
                                     <option value="">Selecione o Player</option>
                                     <option value="whmsonic">WHMSonic</option>
-                                    <option value="fowplayer">FowPlayer</option>
+                                    <option value="html5">Padrão HTML5</option>
                                     <option value="jwplayer">JW Player 5</option>
                                     <option value="grant">Grant - Branco</option>
                                     <option value="grant2">Grant - Preto</option>
+                                    <option value="winamp">Winamp</option>
                                     <option value="shoutcast">ShoutCast Player</option>
                                 </select>
                                 </div>
@@ -168,44 +169,4 @@
     </div>
     <!-- mainwrapper -->
 </section>
-<script>
-
-    function gerar_codigo(){
-        url = location.href;
-        url = url.split('/');
-        diretorio = url[3]
-        url = url[2];
-
-        document.getElementById('gerador').style.display = 'inline';
-
-        codigo = document.getElementById('codigo');
-
-        servidor = document.getElementById('select-basic').value;
-        porta = document.getElementById('porta').value;
-        player = document.getElementById('select-search-hide').value;
-        autostart = document.getElementById('checkboxDefault').checked;
-        cor = document.getElementById('colorpicker').value;
-        cor = cor.replace(/#/g, '')
-
-
-        link = "&#60;iframe src=\"http://"+ url + "/" + diretorio +"/players/radio/box/" + player + "/index.php?radio=" + servidor + ":" + porta + "" +
-        "&autoplay="+ autostart + "&cor="+ cor +"\" scrolling=\"no\" " +
-        " frameborder=\"0\"&#62;&#60;/iframe&#62;";
-
-        codigo.innerHTML = "<code>"+ link +"</code>";
-
-
-    }
-
-    function atualiza_img(){
-        url = location.href;
-        url = url.split('/');
-        diretorio = url[3]
-        url = url[2];
-
-        document.getElementById('img_previa').src = "http://" + url + "/" + diretorio + "/assets/images/players/" + document.getElementById('select-search-hide').value + ".png";
-        document.getElementById('img_previa').hidden = false;
-
-    }
-
-</script>
+<script src="<?php echo base_url("assets/js/geradorPlayerBox.js");?>"></script>

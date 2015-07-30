@@ -17,7 +17,6 @@ $barra = '/';
 $PORTA= $result;
 
 
-
 $url=$_GET['radio'];
 
 
@@ -34,7 +33,7 @@ $player=$HOST.':'.$PORTA;
     <title>AO VIVO</title>
     <style type="text/css">
     body {
-	background-color: transparent;
+	background-color: #<?php echo @$_GET['cor']; ?>;;
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -66,7 +65,7 @@ $player=$HOST.':'.$PORTA;
 						  
   jwplayer('player').setup({
     'flashplayer': 'player2.swf',
-    'file': 'socket://<? echo $player; ?>/;stream.nsv',
+    'file': 'socket://<? echo @$_GET['radio']; ?>/;stream.nsv',
     //'file': 'socket://70.38.41.128:8030/;stream.nsv',
 	 "shows": {
           "streamTimer": { "enabled": true, "tickRate": 100 }

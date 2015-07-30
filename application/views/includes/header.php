@@ -66,7 +66,6 @@
                 <li class="parent <?php if($item_menu == 'player_barra' || $item_menu == "player_box" || $item_menu == "player_html5") echo "active"?>"><a href=""><i class="fa fa-music"></i> <span>Web Rádio</span></a>
                     <ul class="children">
                         <li <?php if($item_menu == 'player_barra') echo "class=\"active\""?>><a href="<?php echo base_url('gerador/player_barra'); ?>">Topo site (Barra)</a></li>
-                        <li <?php if($item_menu == 'player_html5') echo "class=\"active\""?>><a href="<?php echo base_url('gerador/player_html5'); ?>">HTML 5</a></li>
                         <li <?php if($item_menu == 'player_box') echo "class=\"active\""?>><a href="<?php echo base_url('gerador/player_box'); ?>">Box (Caixa)</a></li>
                     </ul>
                 </li>

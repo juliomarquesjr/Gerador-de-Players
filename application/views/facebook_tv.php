@@ -39,6 +39,7 @@
                             <select id="select-basic" data-placeholder="Choose One" class="width300">
                                 <option value="">Selecione o Servidor</option>
                                 <optgroup label="WSE Manager">
+                                    <option value=""></option>
                                     <option value="206.191.148.33">WSE 2</option>
                                     <option value="174.142.115.234">WSE 3</option>
                                     <option value="206.191.148.31">WSE 4</option>
@@ -106,6 +107,6 @@
         titulo = document.getElementById('nome_tv').value;
         img = document.getElementById('img_url').value;
 
-        codigo.innerHTML = "<code>https://ciclanohost.com.br/apps/faceboook_tv/index.php?rtmp=rtmp://" + servidor + ":1935&stream=" + stream +"&titulo=" + titulo + "&logo=" + img +"</code>";
+        codigo.innerHTML = "<code>https://ciclanohost.com.br/apps/faceboook_tv/index.php?rtmp=rtmp://" + servidor + ":1935&stream=" + stream +"&titulo=" + titulo.replace(/ /g, "%20") + "&logo=" + img +"</code>";
     }
 </script>

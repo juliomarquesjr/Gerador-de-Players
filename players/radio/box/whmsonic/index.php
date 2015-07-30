@@ -50,7 +50,18 @@ if ($browser == 'IE') {
 }
 //echo $browser;
 ?>
+<html>
+<head>
+    <title>Ao vivo</title>
 
+    <style>
+        body {
+            margin:0;
+            padding:0;
+            background-color: #<?php echo @$_GET['cor']; ?>;
+        }
+    </style>
+</head>
 <script type="text/javascript" src="player.js"></script>
 <script type="text/javascript">
     new WHMSonic({
@@ -65,3 +76,4 @@ if ($browser == 'IE') {
         logo: "http://www.ciclanohost.com.br",
     });
 </script>
+</html>
